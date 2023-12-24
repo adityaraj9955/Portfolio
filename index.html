@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Whisper&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: blueviolet;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 27px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(204, 204, 231);
+            font-size: 1.02rem;
+        }
+
+        .lrft {
+            font-size: 1.4rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .leftsec {
+            width: 30%;
+        }
+
+        .leftsec {
+            font-size: 2.5rem;
+            margin: 100px 0;
+
+        }
+
+        .rightsection img {
+            width: 85%;
+
+        }
+
+        .purple {
+            color: blueviolet;
+            font-weight: 1000;
+        }
+
+        #element {
+            color: blueviolet;
+            font-weight: 1000;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        .copy{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .leftsec .btn{
+            padding: 12px;
+        }
+        .leftsec .btm{
+            padding: 12px;
+        }
+        .btn{
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="lrft">Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsec">Hi my name is <span class="purple">Aditya</span>
+                <div>and I am a passianate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+
+            </div>
+            <div class="rightsection"><img src="img-removebg-preview.png" alt=""></div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="ffirst">
+                <h3>Aditya's Developer Portfolio</h3>
+            </div>
+            <div class="fsecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="fthird">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="ffour">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            Copyright &#169; www.adisportfolio.com | All right reserved
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Graphic Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
